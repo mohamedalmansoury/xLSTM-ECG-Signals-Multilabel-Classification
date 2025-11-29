@@ -1,0 +1,8 @@
+streamlit>=1.28.0
+torch>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+wfdb>=4.1.0
+xlstm>=1.0.0
+matplotlib>=3.7.0
+plotly>=5.18.0

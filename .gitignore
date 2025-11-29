@@ -1,0 +1,154 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+!xlstm_100hz_parallel_final.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+*.ipynb_checkpoints/
+
+# Model checkpoints (keep only the final model)
+models/*.ckpt
+!models/xlstm_100hz_parallel_final.ckpt
+lightning_logs/
+checkpoints/
+*.ckpt.*
+
+# Data files (too large for GitHub)
+*.dat
+*.hea
+*.npy
+*.npz
+!normalization_params.npz
+data/ptb-xl/
+data/raw/
+data/processed/
+*.csv
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Kaggle
+kaggle.json
+
+# Environment variables
+.env
+.env.local
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+*.dvc
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
