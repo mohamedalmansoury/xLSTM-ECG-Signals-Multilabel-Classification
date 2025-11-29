@@ -4,6 +4,8 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+🚀 **[Try Live Demo](https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/)** | 📂 **[GitHub](https://github.com/mohamedalmansoury/xLSTM-ECG-Signals-Multilabel-Classification)**
+
 A deep learning project for multilabel classification of ECG signals using Parallel xLSTM architecture. This project classifies ECG recordings into five cardiac conditions: Normal (NORM), Myocardial Infarction (MI), ST-T Change (STTC), Conduction Disturbance (CD), and Hypertrophy (HYP).
 
 ## 🔍 Project Overview
@@ -68,6 +70,12 @@ CONFIG = {
     'learning_rate': 0.001,
 }
 ```
+
+## 🌐 Live Demo
+
+**Try it now:** [https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/](https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/)
+
+Upload ECG files and get instant predictions without any setup!
 
 ## 🚀 Getting Started
 

@@ -1,5 +1,7 @@
 # ECG Deployment Application
 
+🌐 **Live Demo:** [https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/](https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/)
+
 This folder contains the Streamlit web application for deploying the xLSTM ECG classification model.
 
 ## Quick Start

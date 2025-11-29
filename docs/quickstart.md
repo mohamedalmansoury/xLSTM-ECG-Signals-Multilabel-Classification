@@ -2,82 +2,16 @@
 
 Get started with xLSTM ECG Classification in 5 minutes!
 
-## 🚀 Fast Track (Deployment Only)
+## 🌐 Fastest Way: Use Live Demo
 
-### Step 1: Clone & Install
-```bash
-git clone https://github.com/yourusername/xLSTM-ECG-Signals-Multilabel-Classification.git
-cd xLSTM-ECG-Signals-Multilabel-Classification
-pip install -r deployment/requirements.txt
-```
+**No installation needed!** Try the app instantly:
 
-### Step 2: Download Model
-Place the model checkpoint in `deployment/` folder:
-- `xlstm_100hz_parallel_final.ckpt`
-- `normalization_params.npz`
+👉 **[https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/](https://xlstm-ecg-signals-multilabel-classification-almansoury.streamlit.app/)**
 
-### Step 3: Run App
-```bash
-cd deployment
-streamlit run app.py
-```
-
-### Step 4: Test with Sample Data
-1. Open http://localhost:8501
-2. Upload files from `data/sample_data/`
+1. Open the link
+2. Upload ECG files from `data/sample_data/`
 3. Enter patient age and sex
-4. View predictions!
-
----
-
-## 📚 Full Setup (Training + Deployment)
-
-### 1. Environment Setup
-```bash
-# Clone repository
-git clone https://github.com/yourusername/xLSTM-ECG-Signals-Multilabel-Classification.git
-cd xLSTM-ECG-Signals-Multilabel-Classification
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 2. Download PTB-XL Dataset
-```bash
-# Option A: PhysioNet
-wget https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.zip
-unzip ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.zip -d data/
-
-# Option B: Kaggle
-pip install kaggle
-kaggle datasets download -d khyeh0719/ptb-xl-dataset
-unzip ptb-xl-dataset.zip -d data/
-```
-
-### 3. Train Model
-```bash
-# Open Jupyter notebook
-jupyter notebook notebooks/ECG_Signals_Classification_xLSTM.ipynb
-
-# Or use JupyterLab
-jupyter lab
-```
-
-Follow the notebook cells to:
-- Load and preprocess data
-- Train the model
-- Evaluate performance
-- Save checkpoint
-
-### 4. Deploy
-```bash
-cd deployment
-streamlit run app.py
-```
+4. Get instant predictions!
 
 ---
 
